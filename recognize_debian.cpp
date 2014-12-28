@@ -8,6 +8,8 @@
 //  3) Get characters found from "characters.txt"
 //  4) Getting pixel color is ***.at<cv::Vec3b>(row, col) or ***.at<cv::Vec3b>(Point(x,y))
 //  5) "at" gives BGR color! Not RGB... (Easiest as Vec3b array [opencv struct])
+//
+//
 
 #include <fstream>
 #include <iostream>
