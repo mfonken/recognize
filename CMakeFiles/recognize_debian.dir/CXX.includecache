@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/debian/Desktop/recognize/recognize_debian.cpp
+fstream
+-
+iostream
+-
+opencv2/imgproc/imgproc.hpp
+/home/debian/Desktop/recognize/opencv2/imgproc/imgproc.hpp
+opencv2/highgui/highgui.hpp
+/home/debian/Desktop/recognize/opencv2/highgui/highgui.hpp
+string
+-
+

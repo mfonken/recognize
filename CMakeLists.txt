@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+project( recognize_debian )
+find_package( OpenCV )
+include_directories( ${OpenCV_INCLUDE_DIRS} )
+add_executable( recognize_debian recognize_debian.cpp )
+target_link_libraries( recognize_debian ${OpenCV_LIBS} )
